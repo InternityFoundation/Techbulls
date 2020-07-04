@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="pull-left"><strong>JAVA</strong> Quiz</div>
+      </header>
+      <main>
+        <form class="questionForm" id="q1" data-question="1">
+          <h3>
+            1) Which of the following option leads to the portability and
+            security of Java?
+          </h3>
+          <ul>
+            <li>
+              <input type="radio" name="q1" value="a" />Bytecode is executed by
+              JVM
+            </li>
+            <li>
+              <input type="radio" name="q1" value="b" />The applet makes the
+              Java code secure and portable
+            </li>
+            <li>
+              <input type="radio" name="q1" value="c" />Use of exception
+              handling
+            </li>
+            <li>
+              <input type="radio" name="q1" value="d" />Dynamic binding between
+              objects
+            </li>
+          </ul>
+
+          <button id="submit">Submit</button>
+        </form>
+
+        <form class="questionForm" id="q2" data-question="1">
+          <h3>2) Which of the following is not a Java features?</h3>
+          <ul>
+            <li><input type="radio" name="q2" value="a" />Dynamic</li>
+            <li>
+              <input type="radio" name="q2" value="b" />Architecture Neutral
+            </li>
+            <li><input type="radio" name="q2" value="c" />Use of pointers</li>
+            <li><input type="radio" name="q2" value="d" />Object-oriented</li>
+          </ul>
+
+          <button id="submit">Submit</button>
+        </form>
+
+        <form class="questionForm" id="q3" data-question="1">
+          <h3>3) The \u0021 article referred to as a</h3>
+          <ul>
+            <li>
+              <input type="radio" name="q3" value="a" />Unicode escape sequence
+            </li>
+            <li><input type="radio" name="q3" value="b" />Octal escape</li>
+            <li><input type="radio" name="q3" value="c" />Hexadecimal</li>
+            <li><input type="radio" name="q3" value="d" />Line feed</li>
+          </ul>
+
+          <button id="submit">Submit</button>
+        </form>
+
+        <form class="questionForm" id="q4" data-question="1">
+          <h3>4) _____ is used to find and fix bugs in the Java programs.</h3>
+          <ul>
+            <li><input type="radio" name="q4" value="a" />JVM</li>
+            <li><input type="radio" name="q4" value="b" />JRE</li>
+            <li><input type="radio" name="q4" value="c" />JDK</li>
+            <li><input type="radio" name="q4" value="d" />JDB</li>
+          </ul>
+
+          <button id="submit">Submit</button>
+        </form>
+        <form class="questionForm" id="q5" data-question="1">
+          <h3>5)Which of the following is a valid declaration of a char?</h3>
+          <ul>
+            <li>
+              <input type="radio" name="q5" value="a" />char ch = '\utea';
+            </li>
+            <li><input type="radio" name="q5" value="b" />char ca = 'tea';</li>
+            <li><input type="radio" name="q5" value="c" />char cr = \u0223;</li>
+            <li>
+              <input type="radio" name="q5" value="d" />char cc = '\itea';
+            </li>
+          </ul>
+
+          <button id="submit">Submit</button>
+        </form>
+      </main>
+    </div>
+
+    <div id="results"></div>
+    <br />
+    <footer>
+      <div class="pull-left">Total: 5 Questions</div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
