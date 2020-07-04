@@ -1,0 +1,30 @@
+.container {
+    max-width: 960px;
+  }
+  
+  .lh-condensed { line-height: 1.25; }
+
+  h2
+  {
+    font-family: 'Titan One', cursive;
+    color: black;
+  }
+
+  h1{
+    font-family: 'Titan One', cursive;
+    color:black;
+  }
+  body{
+    background-color:whitesmoke;
+
+  }
+label{
+    color:black;
+    font-weight: 800;
+    
+    
+}
+
+#hy{
+    color:black;
+}
