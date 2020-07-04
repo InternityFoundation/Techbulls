@@ -1,0 +1,410 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Checkout example · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="index1.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <form class="form-signin" method="POST" action="/index1.html">
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <h1>Sign-Up Form</h1>
+    <p id="hy" class="lead">Get Started with a new Journey.</p>
+  </div>
+
+     
+    </div>
+    <div class="col-md-8 order-md-1">
+      <h2 class="mb-3">  PERSONAL DETAILS</h2>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName" >First name</label>
+            <input type="text" class="form-control" id="firstName" name="fN" placeholder="First Name" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Last name</label>
+            <input type="text" class="form-control" name="prb" id="lastName" placeholder="Last Name" value="" required>
+            <div class="invalid-feedback">
+     
+                Valid last name is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="username">Phone Number</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">valid Phone Number</span>
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="Phone Number" required>
+            <div class="invalid-feedback" style="width: 100%;">
+              
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="username">Native Location</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"></span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="Location" required>
+              <div class="invalid-feedback" style="width: 100%;">
+                
+              </div>
+            </div>
+          </div>
+
+        
+
+        <div class="mb-3">
+          <label for="email">Email <span class="text-muted"></span></label>
+          <input type="email" class="form-control" name="em" id="email" placeholder="you@example.com" required>
+          <div class="invalid-feedback">
+            Please enter a valid email address.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" id="address" placeholder="Address" required>
+          <div class="invalid-feedback">
+            
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address2">whatsApp Number<span class="text-muted">(Optional)</span></label>
+          <input type="number" class="form-control" id="nom" placeholder="Number">
+        </div>
+
+        <br>
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">Gender</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">Choose...</option>
+              <option>MALE</option>
+              <option>FEMALE</option>
+              <option>OTHERS</option>
+            </select>
+            <div class="invalid-feedback">
+              
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state">Marital Status</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Choose...</option>
+              <option>married</option>
+              <option>others</option>
+              <option>single</option>
+            </select>
+            <div class="invalid-feedback">
+            
+            </div>
+          </div>
+        <br>
+
+          <div class="col-md-4 mb-3">
+              <br>
+            <label for="state">Language Known</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Choose...</option>
+              <option>Python</option>
+              <option>Java</option>
+              
+            </select>
+            <div class="invalid-feedback">
+            
+            </div>
+          </div>
+          
+        </div>
+
+
+        <div class="col-md-12 order-md-3">
+            <h2 class="mb-3">  WORK DETAILS</h2>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">SKILL</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="Add your skill" value="" required>
+                  <div class="invalid-feedback">
+                    
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName">Organisation Worked In</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="Company's Name" value="" required>
+                  <div class="invalid-feedback">
+           
+                      Valid last name is required.
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3 col-md-6">
+                  <br>
+                  <div>
+                <label for="username">Duration of Working</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input type="text" class="form-control" id="username" placeholder="start date" required> <span>to</span> <span><input type="text" class="form-control" id="username" placeholder="end date" required></span>
+                  <div class="invalid-feedback" style="width: 100%;">
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="mb-3">
+                
+                <label for="username">Project Name</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input type="text" class="form-control" id="username" placeholder="Project Name" required>
+                  <div class="invalid-feedback" style="width: 100%;">
+                    
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="mb-3">
+                  <label for="username">Duration of Project</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"></span>
+                    </div>
+                    <input type="text" class="form-control" id="username" placeholder="start date" required> <span>to</span> <span><input type="text" class="form-control" id="username" placeholder="end date" required></span>
+                    <div class="invalid-feedback" style="width: 100%;">
+                      
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="comment">Description:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="comment">Other Comments:</label>
+                    <textarea class="form-control" rows="3" id="comment"></textarea>
+                  </div>
+              
+      
+            
+                  
+        <div class="col-md-8 order-md-1">
+            <h2 class="mb-3">  EDUCATION DETAILS</h2>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">SCHOOL NAME</label>
+                  <input type="text" class="form-control" id="firstName"  value="" required>
+                  <div class="invalid-feedback">
+                    
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName">SCHOOL BOARD</label>
+                  <input type="text" class="form-control" id="lastName"  value="" required>
+                  <div class="invalid-feedback">
+           
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3 col-md-6">
+                  <br>
+                  <div>
+                <label for="username">DURATION OF SCHOOLING</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input type="text" class="form-control" id="username" placeholder="start date" required> <span>to</span> <span><input type="text" class="form-control" id="username" placeholder="end date" required></span>
+                  <div class="invalid-feedback" style="width: 100%;">
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="mb-3">
+                
+                <div class="col-md-6 mb-3">
+                    <label for="firstName">10th Class Result</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="cgpa" value="" required>
+                    <div class="invalid-feedback">
+                      
+                    </div>
+                  </div>
+                  
+                  <br><br>
+                </div>
+                      <br>
+
+                      <div class="col-md-12 order-md-1">
+                        <h2 class="mb-3">Social Links</h2>
+                        <form class="needs-validation" novalidate>
+                          <div class="row">
+                            <div class="col-md-8 mb-3">
+                              <label for="firstName">Github</label>
+                              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                              <div class="invalid-feedback">
+                              
+                              </div>
+
+                            </div>
+                            <div class="col-md-12 mb-3">
+                              <label for="lastName">Linkedin</label>
+                              <input type="text" class="form-control" id="lastName"  value="" required>
+                              <div class="invalid-feedback">
+                       
+                            
+                              </div>
+                            </div>
+                            </div>
+                            </form>
+                          </div>
+                        
+
+
+                        <div>
+
+                            
+                            <br><br>
+
+                            <div><div>
+                                
+                                <label for="lastName"><h2>Total Experience In:</h2>Months</label>
+                                <input type="text" class="form-control" id="lastName"  value="" required>
+                                <br>
+                                <label for="lastName">Years</label>
+                                <input type="text" class="form-control" id="lastName"  value="" required>
+                               
+                               
+                            </div></div>
+                            <h2>Desired Job Details</h2>
+                            <div class="col-md-4 mb-3">
+                                <label for="state">Industry</label>
+                                <select class="custom-select d-block w-100" id="state" required>
+                                  <option value="">Choose...</option>
+                                  <option>Finance</option>
+                                  <option>Healthcare</option>
+                                  <option>Insurance</option>
+                                  <option>Education</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                
+                                </div>
+                              </div>
+
+                              <div class="col-md-4 mb-3">
+                                <label for="state">Role</label>
+                                <select class="custom-select d-block w-100" id="state" required>
+                                  <option value="">Choose...</option>
+                                  <option>Developer</option>
+                                  <option>D.Analyst</option>
+                                  <option>D.Engineer</option>
+                                  <option> D.Scientist</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                
+                                </div>
+                            
+
+                                  <div class="col-md-4 mb-3">
+                                  
+                                <label for="state">Desired Shift</label>
+                                <select class="custom-select d-block w-100" id="state" required>
+                                  <option value="">Choose...</option>
+                                  <option>Day</option>
+                                  <option>Night</option>
+                                  <option>Flexible</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                
+                                </div>
+                              </div></div>
+                        </div>
+                           
+                        <div>
+
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">Desired Salary</label>
+                                <input type="number" class="" id="firstName" required>
+                                <div class="invalid-feedback"> in LPA
+                                </div>
+
+                                <div class="col-md-18 mb-3">
+                                    <br>
+                                    <label for="firstName">Desired Location</label>
+                                    <input type="text" class="form-control" id="firstName"  required>
+                                    <div class="invalid-feedback">
+                                      
+                                    </div>
+                        </div>
+<br><br><br>
+                        <button class="btn btn-xl btn-success">SUBMIT</button>
+                        <br><br>
+                        </div>
+                        </div>
+                        </form></div></form></div></form></div></form>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+        <script src="form-validation.js"></script></body>
+</html>
